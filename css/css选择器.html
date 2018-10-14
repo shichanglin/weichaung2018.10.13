@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #div1 {
+            /*ID选择*/
+
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+
+        div {
+            /*标签选择器*/
+
+            color: green;
+        }
+
+        .aa {
+            /*class*/
+
+
+            width: 100px;
+            height: 100px;
+            background: rgb(159, 209, 41);
+        }
+
+        /* div span {
+            /*后代选择器*/
+            /* color: pink; */
+
+
+       /* } */
+        div>span {
+            /*子代选择器*/
+            color: pink;
+
+        }
+ .bb{
+    background: blue;
+}
+/* 分组选择 群组选择*/
+p,li{
+color:#bfa;
+}
+    </style>
+</head>
+
+<body>
+    <div>11</div>
+    <div id="div1">22</div>
+    <div id="div2">33</div>
+
+    <div class="aa">44</div>
+    <div class="aa">55</div>
+    <div>66</div>
+
+    <div>
+        <span>spanspan</span>
+        <a href="#">aaaa</a>
+        <span>spanspan</span>
+        <p>asdgasdgasdgasdfadfasdfasdf <span>asdfasdfasfd</span></p>
+    </div>
+
+    <span>asdfasdf</span>
+   <ul id="ul1">
+       <li> l1</li>
+       <li class="bb">22</li>
+       <li class="bb">33</li>
+   </ul>
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+</body>
+
+</html>
