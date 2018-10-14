@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>社会琳</title>
+    <style>
+        table {
+            background-color: aqua;
+            border: 30px red solid;
+        }
+
+        td {
+            padding: 2px blue solid;
+            border: 20px rgb(131, 194, 136) solid;
+        }
+    </style>
 </head>
 
 <body style="height:3000px;">
@@ -41,7 +52,7 @@
 
         唯创网讯
     </span>
-    <table border="1">
+    <table border="30">
         <tr>
             <td>11</td>
             <td>22</td>
@@ -54,6 +65,57 @@
         </tr>
 
     </table>
+    <form action="">
+        <div>
+            <label for="aa">
+                用户名<input id="aa" type="text" />
+
+            </label>
+        </div>
+        <div>
+            <label for="bb">
+                密码<input id="bb" type="password" />
+            </label>
+        </div>
+        <input type="radio" name="sex">男
+        <input type="radio" name="sex">女
+        <br />
+        <input type="checkbox" name="hobby">乒乓
+        <!--复选-->
+        <input type="checkbox" name="hobby">篮球
+        <input type="checkbox" name="hobby">足球
+
+
+
+        <select name="" id="">
+            <!--下拉列表-->
+            <option value="">16级</option>
+            <option value="">17级</option>
+            <option value="">18级</option>
+        </select>
+
+        <!-- 文本域 -->
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!--文本域-->
+        <button>提交</button>
+
+        <input type="submit" value="提交表单">
+        <strong></strong>
+
+    </form>
 </body>
 
 </html>
+<!-- 行级元素：不能设宽高
+a span lable  strong b 
+
+
+      块级元素 自己占一行
+h1 p ul div table
+
+
+
+    行级块元素    img input
+
+
+-->
